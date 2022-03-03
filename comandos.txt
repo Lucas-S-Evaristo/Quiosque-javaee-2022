@@ -1,0 +1,4 @@
+http://localhost:8080/atvdois/formCadastro
+http://localhost:8080/atvdois/listarCadastro
+http://localhost:8080/atvdois/alterarCadastro?idCadastro=id
+http://localhost:8080/atvdois/excluirCadastro?idCadastro=id
