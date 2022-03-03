@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	font-family: Arial;
+}
+
+html {
+	background-color: #FFEAD0;
+}
+
+header {
+	background-color: #DDFFDD;
+}
+
+nav {
+	float: right;
+	margin-right: 127px;
+	margin-top: 113px;
+	font-size: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+	justify-content: space-between;
+	margin-top: -136px;
+}
+
+#estatisticas {
+	padding-left: 73px;
+}
+
+.logo {
+	margin-top: 49px;
+	margin-bottom: 49px;
+	margin-left: 42px;
+}
+
+/* inputs */
+#inputTotalDia, #inputTotalGeral {
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+}
+
+.totais {
+	float: right;
+	margin-right: 127px;
+	margin-top: 113px;
+	font-size: 20px;
+	/* background-color:   #4ECDC4; */
+}
+
+.totais ul {
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+	margin-right: 43pc;
+	margin-left: 1pc;
+}
+
+#liTotGeral, #liTotDia {
+	background: #4ECDC4;
+	padding: 5px;
+}
+
+#liTotDia {
+	margin-left: 15px;
+}
+
+/* FORMULÁRIO */
+.formulario {
+	width: 425px;
+	margin: auto;
+	text-transform: uppercase;
+	background-color: #c5b8a9;
+	backdrop-filter: blur(55%);
+	padding: 63px;
+	border-radius: 35px;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.formulario section {
+	background: #E7E7E7;
+	padding: 13px;
+	border-radius: 50px;
+	font-size: 20px;
+	width: 25pc;
+}
+
+.formulario input {
+	background-color: transparent;
+	border: none;
+}
+
+.inputs_form:focus {
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#botao_cadastrar {
+	margin: 44px 0px 0px 142px;
+	background-color: #ddd2c5;
+	border: none;
+	font-size: 20px;
+	padding: 13px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#botao_cadastrar:hover {
+	animation: neon 3s alternate infinite ease-in-out; -
+	-cor-neon: aquamarine;
+}
+
+@
+keyframes neon {from { filter:drop-shadow(000var( --cor-neon));
+	
+}
+
+to {
+	filter: drop-shadow(0 0 90px var(- -cor-neon));
+}
+}
